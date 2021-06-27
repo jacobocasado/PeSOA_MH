@@ -1,0 +1,4 @@
+/opt/clion/bin/cmake/linux/bin/cmake -G "CodeBlocks - Unix Makefiles" /home/jcasado/Documentos/PeSOA_jacobo/code
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/jcasado/Documentos/PeSOA_jacobo/code

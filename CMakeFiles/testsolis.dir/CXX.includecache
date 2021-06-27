@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/jcasado/Documentos/PeSOA_jacobo/code/cec17.h
+
+/home/jcasado/Documentos/PeSOA_jacobo/code/testsolis.cc
+cec17.h
+/home/jcasado/Documentos/PeSOA_jacobo/code/cec17.h
+iostream
+-
+vector
+-
+random
+-
+

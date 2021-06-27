@@ -1,0 +1,1 @@
+/sbin/c++ -rdynamic CMakeFiles/testjacobocambios.dir/testjacobocambios.cc.o -o testjacobocambios  -Wl,-rpath,/home/jcasado/Documentos/PeSOA_jacobo/code libcec17_test_func.so 

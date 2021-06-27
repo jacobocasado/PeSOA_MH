@@ -1,0 +1,7 @@
+#!/bin/bash
+
+for (( c=0; c<10; c++ ))
+do
+    ./testjacobocambios
+    i = i+1
+done

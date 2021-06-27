@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="cec17"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/jcasado/Documentos/PeSOA_jacobo/code"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/sbin/make -f &quot;/home/jcasado/Documentos/PeSOA_jacobo/code/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/sbin/make -f &quot;/home/jcasado/Documentos/PeSOA_jacobo/code/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/sbin/make -f &quot;/home/jcasado/Documentos/PeSOA_jacobo/code/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/sbin/make -f &quot;/home/jcasado/Documentos/PeSOA_jacobo/code/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/jcasado/Documentos/PeSOA_jacobo/code"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/sbin/make -f &quot;/home/jcasado/Documentos/PeSOA_jacobo/code/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/sbin/make -f &quot;/home/jcasado/Documentos/PeSOA_jacobo/code/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/sbin/make -f &quot;/home/jcasado/Documentos/PeSOA_jacobo/code/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/sbin/make -f &quot;/home/jcasado/Documentos/PeSOA_jacobo/code/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test">
+				<Option output="/home/jcasado/Documentos/PeSOA_jacobo/code/test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/jcasado/Documentos/PeSOA_jacobo/code"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler/>
+				<MakeCommands>
+					<Build command="/sbin/make -f &quot;/home/jcasado/Documentos/PeSOA_jacobo/code/Makefile&quot;  VERBOSE=1 test"/>
+					<CompileFile command="/sbin/make -f &quot;/home/jcasado/Documentos/PeSOA_jacobo/code/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/sbin/make -f &quot;/home/jcasado/Documentos/PeSOA_jacobo/code/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/sbin/make -f &quot;/home/jcasado/Documentos/PeSOA_jacobo/code/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test/fast">
+				<Option output="/home/jcasado/Documentos/PeSOA_jacobo/code/test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/jcasado/Documentos/PeSOA_jacobo/code"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler/>
+				<MakeCommands>
+					<Build command="/sbin/make -f &quot;/home/jcasado/Documentos/PeSOA_jacobo/code/Makefile&quot;  VERBOSE=1 test/fast"/>
+					<CompileFile command="/sbin/make -f &quot;/home/jcasado/Documentos/PeSOA_jacobo/code/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/sbin/make -f &quot;/home/jcasado/Documentos/PeSOA_jacobo/code/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/sbin/make -f &quot;/home/jcasado/Documentos/PeSOA_jacobo/code/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="testrandom">
+				<Option output="/home/jcasado/Documentos/PeSOA_jacobo/code/testrandom" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/jcasado/Documentos/PeSOA_jacobo/code"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler/>
+				<MakeCommands>
+					<Build command="/sbin/make -f &quot;/home/jcasado/Documentos/PeSOA_jacobo/code/Makefile&quot;  VERBOSE=1 testrandom"/>
+					<CompileFile command="/sbin/make -f &quot;/home/jcasado/Documentos/PeSOA_jacobo/code/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/sbin/make -f &quot;/home/jcasado/Documentos/PeSOA_jacobo/code/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/sbin/make -f &quot;/home/jcasado/Documentos/PeSOA_jacobo/code/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="testrandom/fast">
+				<Option output="/home/jcasado/Documentos/PeSOA_jacobo/code/testrandom" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/jcasado/Documentos/PeSOA_jacobo/code"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler/>
+				<MakeCommands>
+					<Build command="/sbin/make -f &quot;/home/jcasado/Documentos/PeSOA_jacobo/code/Makefile&quot;  VERBOSE=1 testrandom/fast"/>
+					<CompileFile command="/sbin/make -f &quot;/home/jcasado/Documentos/PeSOA_jacobo/code/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/sbin/make -f &quot;/home/jcasado/Documentos/PeSOA_jacobo/code/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/sbin/make -f &quot;/home/jcasado/Documentos/PeSOA_jacobo/code/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="testsolis">
+				<Option output="/home/jcasado/Documentos/PeSOA_jacobo/code/testsolis" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/jcasado/Documentos/PeSOA_jacobo/code"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler/>
+				<MakeCommands>
+					<Build command="/sbin/make -f &quot;/home/jcasado/Documentos/PeSOA_jacobo/code/Makefile&quot;  VERBOSE=1 testsolis"/>
+					<CompileFile command="/sbin/make -f &quot;/home/jcasado/Documentos/PeSOA_jacobo/code/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/sbin/make -f &quot;/home/jcasado/Documentos/PeSOA_jacobo/code/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/sbin/make -f &quot;/home/jcasado/Documentos/PeSOA_jacobo/code/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="testsolis/fast">
+				<Option output="/home/jcasado/Documentos/PeSOA_jacobo/code/testsolis" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/jcasado/Documentos/PeSOA_jacobo/code"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler/>
+				<MakeCommands>
+					<Build command="/sbin/make -f &quot;/home/jcasado/Documentos/PeSOA_jacobo/code/Makefile&quot;  VERBOSE=1 testsolis/fast"/>
+					<CompileFile command="/sbin/make -f &quot;/home/jcasado/Documentos/PeSOA_jacobo/code/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/sbin/make -f &quot;/home/jcasado/Documentos/PeSOA_jacobo/code/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/sbin/make -f &quot;/home/jcasado/Documentos/PeSOA_jacobo/code/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/jcasado/Documentos/PeSOA_jacobo/code"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/sbin/make -f &quot;/home/jcasado/Documentos/PeSOA_jacobo/code/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/sbin/make -f &quot;/home/jcasado/Documentos/PeSOA_jacobo/code/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/sbin/make -f &quot;/home/jcasado/Documentos/PeSOA_jacobo/code/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/sbin/make -f &quot;/home/jcasado/Documentos/PeSOA_jacobo/code/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="cec17_test_func">
+				<Option output="/home/jcasado/Documentos/PeSOA_jacobo/code/libcec17_test_func.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/jcasado/Documentos/PeSOA_jacobo/code"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler/>
+				<MakeCommands>
+					<Build command="/sbin/make -f &quot;/home/jcasado/Documentos/PeSOA_jacobo/code/Makefile&quot;  VERBOSE=1 cec17_test_func"/>
+					<CompileFile command="/sbin/make -f &quot;/home/jcasado/Documentos/PeSOA_jacobo/code/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/sbin/make -f &quot;/home/jcasado/Documentos/PeSOA_jacobo/code/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/sbin/make -f &quot;/home/jcasado/Documentos/PeSOA_jacobo/code/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="cec17_test_func/fast">
+				<Option output="/home/jcasado/Documentos/PeSOA_jacobo/code/libcec17_test_func.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/jcasado/Documentos/PeSOA_jacobo/code"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler/>
+				<MakeCommands>
+					<Build command="/sbin/make -f &quot;/home/jcasado/Documentos/PeSOA_jacobo/code/Makefile&quot;  VERBOSE=1 cec17_test_func/fast"/>
+					<CompileFile command="/sbin/make -f &quot;/home/jcasado/Documentos/PeSOA_jacobo/code/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/sbin/make -f &quot;/home/jcasado/Documentos/PeSOA_jacobo/code/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/sbin/make -f &quot;/home/jcasado/Documentos/PeSOA_jacobo/code/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="testjacobocambios">
+				<Option output="/home/jcasado/Documentos/PeSOA_jacobo/code/testjacobocambios" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/jcasado/Documentos/PeSOA_jacobo/code"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler/>
+				<MakeCommands>
+					<Build command="/sbin/make -f &quot;/home/jcasado/Documentos/PeSOA_jacobo/code/Makefile&quot;  VERBOSE=1 testjacobocambios"/>
+					<CompileFile command="/sbin/make -f &quot;/home/jcasado/Documentos/PeSOA_jacobo/code/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/sbin/make -f &quot;/home/jcasado/Documentos/PeSOA_jacobo/code/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/sbin/make -f &quot;/home/jcasado/Documentos/PeSOA_jacobo/code/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="testjacobocambios/fast">
+				<Option output="/home/jcasado/Documentos/PeSOA_jacobo/code/testjacobocambios" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/jcasado/Documentos/PeSOA_jacobo/code"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler/>
+				<MakeCommands>
+					<Build command="/sbin/make -f &quot;/home/jcasado/Documentos/PeSOA_jacobo/code/Makefile&quot;  VERBOSE=1 testjacobocambios/fast"/>
+					<CompileFile command="/sbin/make -f &quot;/home/jcasado/Documentos/PeSOA_jacobo/code/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/sbin/make -f &quot;/home/jcasado/Documentos/PeSOA_jacobo/code/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/sbin/make -f &quot;/home/jcasado/Documentos/PeSOA_jacobo/code/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="testjacobo">
+				<Option output="/home/jcasado/Documentos/PeSOA_jacobo/code/testjacobo" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/jcasado/Documentos/PeSOA_jacobo/code"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler/>
+				<MakeCommands>
+					<Build command="/sbin/make -f &quot;/home/jcasado/Documentos/PeSOA_jacobo/code/Makefile&quot;  VERBOSE=1 testjacobo"/>
+					<CompileFile command="/sbin/make -f &quot;/home/jcasado/Documentos/PeSOA_jacobo/code/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/sbin/make -f &quot;/home/jcasado/Documentos/PeSOA_jacobo/code/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/sbin/make -f &quot;/home/jcasado/Documentos/PeSOA_jacobo/code/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="testjacobo/fast">
+				<Option output="/home/jcasado/Documentos/PeSOA_jacobo/code/testjacobo" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/jcasado/Documentos/PeSOA_jacobo/code"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler/>
+				<MakeCommands>
+					<Build command="/sbin/make -f &quot;/home/jcasado/Documentos/PeSOA_jacobo/code/Makefile&quot;  VERBOSE=1 testjacobo/fast"/>
+					<CompileFile command="/sbin/make -f &quot;/home/jcasado/Documentos/PeSOA_jacobo/code/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/sbin/make -f &quot;/home/jcasado/Documentos/PeSOA_jacobo/code/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/sbin/make -f &quot;/home/jcasado/Documentos/PeSOA_jacobo/code/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/jcasado/Documentos/PeSOA_jacobo/code/cec17.c">
+			<Option target="cec17_test_func"/>
+		</Unit>
+		<Unit filename="/home/jcasado/Documentos/PeSOA_jacobo/code/cec17.h">
+			<Option target="cec17_test_func"/>
+		</Unit>
+		<Unit filename="/home/jcasado/Documentos/PeSOA_jacobo/code/cec17_test_func.c">
+			<Option target="cec17_test_func"/>
+		</Unit>
+		<Unit filename="/home/jcasado/Documentos/PeSOA_jacobo/code/test.cc">
+			<Option target="test"/>
+		</Unit>
+		<Unit filename="/home/jcasado/Documentos/PeSOA_jacobo/code/testjacobo.cc">
+			<Option target="testjacobo"/>
+		</Unit>
+		<Unit filename="/home/jcasado/Documentos/PeSOA_jacobo/code/testjacobocambios.cc">
+			<Option target="testjacobocambios"/>
+		</Unit>
+		<Unit filename="/home/jcasado/Documentos/PeSOA_jacobo/code/testrandom.cc">
+			<Option target="testrandom"/>
+		</Unit>
+		<Unit filename="/home/jcasado/Documentos/PeSOA_jacobo/code/testsolis.cc">
+			<Option target="testsolis"/>
+		</Unit>
+		<Unit filename="/home/jcasado/Documentos/PeSOA_jacobo/code/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

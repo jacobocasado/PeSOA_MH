@@ -1,0 +1,1 @@
+/sbin/c++ -rdynamic CMakeFiles/PeSOA.dir/PeSOA.cc.o -o PeSOA  -Wl,-rpath,/home/jcasado/Documentos/PeSOA_jacobo/code libcec17_test_func.so 
